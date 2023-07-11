@@ -102,18 +102,6 @@ class BasicWorldDemo {
       }
     }
 
-    // const box = new THREE.Mesh(
-    //   new THREE.SphereGeometry(2, 32, 32),
-    //   new THREE.MeshStandardMaterial({
-    //       color: 0xFFFFFF,
-    //       wireframe: true,
-    //       wireframeLinewidth: 4,
-    //   }));
-    // box.position.set(0, 0, 0);
-    // box.castShadow = true;
-    // box.receiveShadow = true;
-    // this._scene.add(box);
-
     this._RAF();
   }
 
